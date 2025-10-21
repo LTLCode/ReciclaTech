@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: var(--background);
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    position: relative;
+    
+}
+
+:root{
+    --background: #ffffff;
+    --fundo_caixas: #F3F5F8;
+    --titulo: #1F2937;
+    --subtitulo: #4b5563;
+    --contorno: #16A34A;
+    --botao: #21C05C;
+    --circulo_N:#2563EB;
+    --borda: #B4AEAE;
+    --darker: #09090B;
+}
+
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    margin: 31px 39px 0px 37px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--borda);
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+}
+
+.logo h1{
+    color: var(--titulo);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    align-self: center
+}
+
+.logo img{
+    align-self: center
+    
+}
+
+.links_navegacao{
+    display: flex;
+    gap: 33px;
+    align-self: center;
+}
+
+.links_navegacao a{
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--subtitulo);
+    align-self: center;
+}
+
+.links_navegacao button{
+    background-color: var(--botao);
+    width: 100%;
+    border-radius: 6px;
+    width: 189px;
+    height: 60px;
+    color: var(--background);
+    border: none;
+    font-size: 16px;
+}
+
+.main1{
+    display: flex;
+    position: relative;
+}
+
+.main1 img{
+    position: absolute;
+    right: 49.26px;
+    top: 74px;
+}
+
+
+.maintext{
+    margin-top: 144px;
+    margin-left: 54.56px;
+    margin-bottom: 55px;
+}
+
+.maintext h2{
+    font-family: "Poppins", bold;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 130%;
+    color: var(--titulo);
+    padding-bottom: 40px;
+}
+
+.maintext h4{
+    font-family: "Inter", "regular";
+    font-weight: 400;
+    font-style: normal;
+    color: #4b5563;
+    font-size: 20px;
+}
+
+.botoesmain1{
+    display: flex;
+    gap: 43.19px;
+    margin-left: 54.56px;
+}
+
+.botoesmain1 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 188.91px;
+    height: 62px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+#botao2{
+    background-color: var(--contorno);
+    color: var(--background);
+}
+
+#botao2 img{
+    align-items: center;
+}
+
+#botao3{
+    background-color: var(--background);
+    border: 1px solid var(--circulo_N);
+    color: var(--circulo_N);
+    margin-bottom: 137px;
+}
+
+.info{
+    display: flex;
+    height: 184px;
+    justify-content: space-around;
+    background-color: var(--fundo_caixas);
+    margin-bottom: 110px;
+}
+
+.infos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+    gap: 9px;
+    margin: 0 101px;
+}
+
+.infos h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: "Bold";
+    font-size: 40px;
+    color: var(--contorno);
+}
+
+.infos p{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-style: "Regular";
+    color: #4b5563;
+}
+
+.comofunciona{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-bottom: 94px;
+    margin-left: 94px;
+}
+
+.comofunciona h2{
+    font-family: "Poppins", sans-serif;
+    font-style: "Bold";
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--titulo);
+}
+
+.comofunciona h3{
+    font-family: "Inter", sans-serif;
+    font-style: "Regular";
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--titulo);
+}
+
+.doadoresadquirentes{
+    margin-left: 94px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.doadoresEadquirentes{
+    background-color: var(--fundo_caixas);
+    width: 491px;
+    padding: 40px 29.44px;
+    border-radius: 8px;
+    margin-bottom: 115px;
+}
+
+.tituloDE{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--contorno);
+    margin-bottom: 28.42px;
+}
+
+#tituloadquirentes{
+    color: var(--circulo_N);
+}
+
+.tituloDE h3{
+    font-family: "Inter", sans-serif;
+    font-style: "Regular";
+    font-weight: 400;
+    font-size: 25px;
+}
+
+#pdentroDE{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-style: "Regular";
+    color: #4b5563;
+    margin-bottom: 36px;
+}
+
+.subitensDA{
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+    gap: 12px;
+}
+
+.subitenstext h4{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-style: "Bold";
+    color: var(--darker);
+}
+
+.subitenstext p{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-style: "Regular";
+    color: #4b5563;
+}
+
+.ProdutosDisponiveis{
+    background-color: var(--fundo_caixas);
+}
+
+.titulosPD{
+    margin-left: 94px;
+}
