@@ -89,8 +89,8 @@ body{
 
 .main1 img{
     position: absolute;
-    right: 49.26px;
-    top: 74px;
+    right: 97px;
+    top: 78px;
 }
 
 
@@ -278,5 +278,84 @@ body{
 }
 
 .titulosPD{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
     margin-left: 94px;
+}
+
+.titulosPD h2{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-style: "Bold";
+    font-weight: 700;
+    color: var(--titulo);
+    margin-top: 50px;
+}
+
+.titulosPD h3{
+    font-family: "Inter", sans-serif;
+    font-style: "Regular";
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--subtitulo);
+    margin-bottom: 72.54px;
+}
+
+.produtosFNS{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+
+
+.FNS{
+    display: flex;
+    width: 299px;
+    height: 436px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--contorno);
+    border-radius: 8px;
+    margin-bottom: 103px;
+}
+
+.FNSfundo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background);
+}
+
+.FNSfundo h4{
+    font-family: "Inter", sans-serif;
+    font-style: "Regular";
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--darker);
+    margin-top: 21.65px;
+    margin-bottom: 15px;
+}
+
+.FNSfundo p{
+    font-family: "Poppins", sans-serif;
+    font-style: "Regular";
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 21px;
+    color: var(--subtitulo);
+    text-align: center;
+}
+
+.FNSfundo button{
+    width: 150px;
+    height: 37px;
+    background-color: var(--contorno);
+    font-size: 14px;
+    color: var(--background);
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 31px;
 }
