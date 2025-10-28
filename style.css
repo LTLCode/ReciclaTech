@@ -452,6 +452,7 @@ body{
 
 .diferenca{
     background-color: var(--fundo_caixas);
+    margin-bottom: 12px;
 }
 
 .prontojunte{
@@ -508,4 +509,102 @@ body{
     border: 1px solid var(--contorno);
     border-radius: 6px;
     color: var(--contorno);
+}
+
+footer{
+    background-color: var(--titulo);
+}
+
+.rodape{
+    color: var(--JMSborda);
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-style: "Regular";
+}
+
+.rodape_itens{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 39px;
+    margin: 31px 39px 0px 37px;
+}
+
+.reciclatech{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.reciclatech_logo{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.reciclatech h2{
+    font-family: "Inter", sans-serif;
+    font-style: "Bold";
+    font-size: 20px;
+    color: var(--background);
+    
+}
+
+.reciclatech_logo img{
+    width: 24px;
+    height: 24px;
+}
+
+.linkssuporte{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.linkssuporte_titulo h2{
+    font-family: "Poppins", sans-serif;
+    font-style: "Bold";
+    font-size: 16px;
+    color: var(--background);
+}
+
+.linkssuporte_a{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.linkssuporte_a a{
+    text-decoration: none;
+    color: var(--JMSborda);
+}
+
+.redessociais{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.redessociais h2{
+    font-family: "Poppins", sans-serif;
+    font-style: "Bold";
+    font-size: 16px;
+    color: var(--background); 
+}
+
+.redessociais_logos{
+    display: flex;
+    gap: 16px;
+}
+
+.rodapefinal{
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    border-top: 1px solid var(--subtitulo);
+    margin: 31px 39px 0px 37px;
+}
+
+.rodapefinal p{
+    padding-top: 24px;
+    padding-bottom: 35px;
 }
