@@ -526,7 +526,7 @@ footer{
     display: flex;
     justify-content: space-between;
     padding-top: 39px;
-    margin: 31px 39px 0px 37px;
+    margin: 0px 39px 0px 37px;
 }
 
 .reciclatech{
@@ -605,6 +605,24 @@ footer{
 }
 
 .rodapefinal p{
-    padding-top: 24px;
-    padding-bottom: 35px;
+    margin-top: 24px;
+    margin-bottom: 35px;
 }
+
+#btn_nav:hover{
+    background-color: var(--contorno);
+
+}
+
+#botao2:hover,
+#botao4:hover{
+    background-color: var(--botao);
+}
+
+#botao3:hover,
+#botao5:hover{
+
+}
+
+
+
