@@ -27,6 +27,7 @@ body{
     --circulo_N:#2563EB;
     --borda: #B4AEAE;
     --darker: #09090B;
+    --JMSborda: #9CA3AF;
 }
 
 .navegacao{
@@ -273,8 +274,10 @@ body{
     color: #4b5563;
 }
 
+ 
 .ProdutosDisponiveis{
     background-color: var(--fundo_caixas);
+    margin-bottom: 51px;
 }
 
 .titulosPD{
@@ -320,13 +323,13 @@ body{
     border: 1px solid var(--contorno);
     border-radius: 8px;
     margin-bottom: 103px;
+    background-color: var(--background);
 }
 
 .FNSfundo{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--background);
 }
 
 .FNSfundo h4{
@@ -358,4 +361,151 @@ body{
     border: none;
     border-radius: 6px;
     margin-bottom: 31px;
+}
+
+.oquefalando{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 79px;
+}
+
+.oquefalando h2{
+    font-family: "Poppins", sans-serif;
+    font-style: "Bold";
+    font-size: 40px;
+    color: var(--titulo);
+}
+
+.oquefalando h3{
+    font-family: "Inter", sans-serif;
+    font-style: "Regular";
+    font-size: 25px;
+    color: var(--subtitulo);
+    font-weight: 400;
+}
+
+.coments{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.JMA{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--JMSborda);
+    border-left: 4px solid var(--JMSborda);
+    border-radius: 8px;
+    width: 338px;
+    height: 300px;
+    padding-left: 37px;
+    padding-top: 28px;
+    margin-bottom: 69px;
+}
+
+#star{
+    width: 120px;
+}
+
+.JMA p{
+    margin-top: 19px;
+    font-family: "Poppins", sans-serif;
+    font-style: "Regular";
+    font-size: 16px;
+    color: var(--subtitulo);
+}
+
+.usuarioIDA{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-top: 34px;
+}
+
+.usuarioIDA img{
+    width: 40px;
+    height: 40px;
+}
+
+.nomeDA h4{
+    font-family: "Inter", sans-serif;
+    font-style: "Regular";
+    font-size: 14px;
+    color: var(--darker);
+    font-weight: 400;
+}
+
+.nomeDA h5{
+    font-family: "Inter", sans-serif;
+    font-style: "Regular";
+    font-size: 14px;
+    color: var(--subtitulo);
+    font-weight: 400;
+}
+
+#anaproblema{
+    padding-top: 25px;
+}
+
+.diferenca{
+    background-color: var(--fundo_caixas);
+}
+
+.prontojunte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+}
+
+.prontojunte h2{
+    margin-top: 81px;
+    font-family: "Poppins", sans-serif;
+    font-style: "Bold";
+    font-size: 40px;
+    color: var(--darker);
+    text-align: center;
+}
+
+.prontojunte h3{
+    font-family: "Inter", sans-serif;
+    font-style: "Regular";
+    font-size: 25px;
+    color: var(--darker);
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 51px;
+    line-height: 150%;
+}
+
+.diferencabotoes{
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    padding-bottom: 76px;
+}
+
+
+
+#botao4{
+    width: 189px;
+    height: 44px;
+    font-size: 16px;
+    background-color: var(--contorno);
+    border: 1px solid var(--contorno);
+    border-radius: 6px;
+    color: var(--background);
+}
+
+#botao5{
+    width: 189px;
+    height: 44px;
+    font-size: 16px;
+    background-color: var(--fundo_caixas);
+    border: 1px solid var(--contorno);
+    border-radius: 6px;
+    color: var(--contorno);
 }
